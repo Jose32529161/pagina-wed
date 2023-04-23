@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>CURRICULO</title>
+
+      <meta name="viweport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <link rel="stylesheet" href="estilo.css">
+
+<style>
+  
+@import url('https://fonts.googleapis.com/css2? family= Righteous & family= Work+Sans:wght@100;200;400;600;800 & display=swap');
+*{
+  box-sizing: border-box;
+  font-family: work Sans;
+  margin: 0;
+  padding: 0;
+}
+html{
+  /* me permite deslizar cuando hago clic en los links del menu */
+  scroll-behavior: smooth;
+
+}
+/* MENU */
+.contenedor-header{
+  background: #1e2326;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+
+}
+.contenedor-header header{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+
+}
+.contenedor-header header .logo a{
+  font-family: 'Righteous';
+  font-size: 36px;
+  color: blue;
+  text-decoration: none;
+}
+.contenedor-header header ul{
+  display: flex;
+  list-style: none;
+}
+.contenedor-header header nav ul li a{
+  text-align: none;
+  color: #fff;
+  margin: 0 15px;
+  padding: 3px;
+  transition: .5s;
+  text-decoration: none;
+
+}
+.contenedor-header header nav ul li a:hover{
+  color: blue;
+}
+.nav-responsive{
+  background-color: blue;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+/* SECCION INICIO */
+.inicio{
+background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(img/e.jpg); 
+background-size: cover;
+height: 100vh;
+color: #fff;
+display: flex;
+align-items: center;
+}
+.inicio .contenido-banner{
+  padding: 20px;
+  background-color:   black;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  border-radius: 40px;
+
+}
+.inicio .contenido-banner img{
+  margin-top: 40px;
+  border: 10px solid blue;
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-radius: 100%;
+
+}
+.inicio .contenido-banner h1{
+  margin-top: 40px;
+  font-size: 42px;
+  font-family: 'Righteous';
+  color: blue;
+}
+.inicio .contenido-banner h2{
+  font-size: 15px;
+  font-weight: normal;
+color: blue;
+}
+.inicio .contenido-banner .redes a{
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  borde: 1px solid #fff;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  margin: 40px 5px;
+  font-size: 20px;
+  transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{
+  background-color: blue;
+}
+.sobremi{
+  background-color: black;
+  color: #fff;
+  padding: 50px 20px;
+}
+.sobremi .contenido-seccion{
+  max-width: 1100px;
+  margin: auto;
+}
+.sobremi h2{
+  font-size: 48px;
+  font-family: 'Righteous';
+  text-align: center;
+  padding: 20px 0;
+}
+.sobreni .contenido-seccion p{
+  font: 18px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.sobremi .contenido-seccion p span{
+  colo:  blue;
+  font-weight: bold;
+}
+.sobremi .fila{
+  display: flex;
+
+}
+.sobremi .fila .col{
+  width: 50%;
+}
+.sobremi .fila .col h3{
+  font-size: 28px;
+  font-family: 'Righteous';
+  margin-bottom: 25px;
+}
+.sobremi .fila .col ul{
+  list-style: none;
+}
+
+.sobremi .fila .col ul li{
+  margin: 12px 0;
+
+}
+.sobremi .fila .col ul li strong{
+  display: inline-block;
+  color:  blue;
+  width: 130px;
+}
+.sobremi .fila .col ul li span{
+  background-color:  blue;
+  padding: 3px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.sobremi .fila .col .contenedor-intereses{
+  display: flex;
+  flex-wrap: wrap;
+}
+.sobremi .fila .col .contenedor-intereses .interes{
+  width: 100px;
+  height: 100px;
+  background-color: #252A2E;
+  border-radius: 10px;
+  margin: 0 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+}
+.sobremi .fila .col .contenedor-intereses .interes:hover{
+  background-color:  blue;
+}
+.sobremi .fila .col .contenedor-intereses .interes i{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.sobremi button{
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #fff;
+  width: fit-content;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 12px;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+}
+.sobremi button .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: blue;
+  z-index: -1;
+  transition: 1s;
+}
+ .sobremi button:hover .overlay{
+  width: 100%;
+ }
+ <!-- SECCION S K I L L S -->
+
+.skills{
+  background-color: black;
+  color:  #fff;
+  padding: 50px 20px;
+}
+.skills .contenido-seccion{
+  max-width: 110%;
+  background-color: black;
+  color: #fff;
+  margin: auto;
+  padding: 50px 20px;
+}
+.skills h2{
+  font-size: 48px;
+  font-family: 'Righteous';
+  text-align: center;
+  padding: 20px 0;
+}
+.skills .fila{
+  display: flex;
+  
+}
+.skills .fila .col{
+   width: 50%;
+  padding: 0 80px;
+  
+
+}
+.skills .fila .col h3{
+  font-size: 28px;
+  font-family: 'Righteous';
+  margin-bottom: 25px;
+}
+.skills .skills > span{
+font-weight: bold;
+display: block;
+margin-bottom: 15px;
+}
+.skills .skills .barra-skills{
+  height: 8px;
+  width: 80%;
+  background-color: #131517;
+  position: relative;
+  margin-bottom: 30px;
+}
+.skills .skills .progreso{
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  height: 8px;
+
+
+}
+.skills .skills .barra-skills span{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  top: -17px;
+  right: -15px;
+  font-size: 14px;
+
+}
+/* Estas clases se agregaran dinamicamente mediante javascript*/
+.skills .skills .javascript{
+  width: 0%;
+  animation: 2s javascript forwards;
+
+}
+@keyframes javascript{
+  0%{width: 0%;}
+  100%{width: 50%;}
+}
+.skills .skills .htmlcss{
+  width: 0%;
+  animation: 3s htmlcss forwards;
+
+}
+@keyframes htmlcss{
+  0%{width: 0%;}
+  100%{width: 80%;}
+}
+.skills .skills .photoshop{
+  width: 0%;
+  animation: 3s photoshop forwards;
+
+}
+@keyframes photoshop{
+  0%{width: 0%;}
+  100%{width: 90%;}
+}
+.skills .skills .Wordpress{
+  width: 0%;
+  animation: 3s Wordpress forwards;
+
+}
+@keyframes Wordpress{
+  0%{width: 0%;}
+  100%{width: 70%;}
+}
+
+.skills .skills .Dupra{
+  width: 0%;
+  animation: 4s Dupra forwards;
+
+}
+@keyframes Dupra{
+  0%{width: 0%;}
+  100%{width: 99%;}
+}
+  
+.skills .skills .comunicacion{
+  width: 0%;
+  animation: 2s comunicacion forwards;
+
+}
+@keyframes comunicacion{
+  0%{width:  0%;}
+  100%{width:  80%;}
+}
+.skills .skills .creatividad{
+  width: 0%;
+  animation: 2s creatividad forwards;
+
+}
+@keyframes creatividad{
+  0%{width:  0%;}
+  100%{width:  80%;}
+}
+.skills .skills .dedicacion{
+  width: 0%;
+  animation: 2s dedicacion forwards;
+
+}
+@keyframes dedicacion{
+  0%{width:  0%;}
+  100%{width:  55%;}
+}
+.skills .skills .proyect{
+  width: 0%;
+  animation: 2s proyect forwards;
+
+}
+@keyframes proyect{
+  0%{width:  0%;}
+  100%{width:  65%;}
+}
+
+/* SECCION CURRICULUM*/
+.curriculum{
+  background-color: black;
+  color:  #fff;
+  padding: 50px 20px;
+}
+.curriculum .contenido-seccion{
+  max-width: 1100px;
+  background-color: black;
+  color: #fff;
+  margin: auto;
+  padding: 50px 20px;
+}
+.curriculum h2{
+  font-size: 48px;
+  font-family: 'Righteous';
+  text-align: center;
+  padding: 20px 0;
+}
+.curriculum .fila{
+  display: flex;
+  justify-content: space-between;
+}
+.curriculum .fila .col{
+  width:  49%;
+  padding: 0 20px;
+}
+.curriculum .fila .col. h3{
+  font-size: 28px;
+  font-family:  'Righteous';
+  margin-bottom: 25px;
+}
+.curriculum .fila .izquierda{
+  border-right: : 2px solid #fff;
+}
+.curriculum .fila .derecha{
+  border-left: 2px solid #fff; 
+}
+.curriculum .fila .item{
+  padding: 25px;
+  margin-bottom: 30px;
+  background-color: #252A2E;
+  position: relative;
+}
+.curriculum .fila .item h4{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.curriculum .fila .item .casa{
+  color: blue;
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+}
+.curriculum .fila .item .fecha{
+  display: block;
+  color: blue;
+  margin-bottom: 10px;
+}
+.curriculum .fila .item p{
+  line-height: 24px;
+}
+.curriculum .fila .izq{
+border-right: 2px solid blue;
+margin-right: 20px;
+}
+.curriculum .fila .der{
+border-left: 2px solid blue;
+border-left: 20px;
+}
+.curriculum .fila .item .conectori{
+  height: 2px;
+  width: 29px;
+  background-color: blue;
+  position: absolute;
+  top: 50%;
+  right: -29px;
+  z-index: 5;
+}
+.curriculum .fila .item .conectori .circuloi{
+  display: block;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  background-color: blue;
+  float: right;
+  position: relative;
+  bottom: 4px;
+}
+.curriculum .fila .item .conectord{
+  height: 2px;
+  width: 23px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: -43px;
+  z-index: 5;
+}
+.curriculum .fila .item .conectord .circulod{
+  display: block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: white;
+  float: left;
+  position: relative;
+  bottom: 4px;
+}
+/* SECCION PORTAFOLI */
+.portafolio{
+  background-color: black;
+  color:  #fff;
+  padding: 50px 20px;
+}
+.portafolio .contenido-seccion{
+  max-width: 1100px;
+  background-color: black;
+  color: #fff;
+  margin: auto;
+  padding: 50px 20px;
+}
+.portafolio h2{
+  font-size: 48px;
+  font-family: 'Righteous';
+  text-align: center;
+  padding: 20px 0;
+}
+.portafolio .galeria{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.portafolio .galeria .proyecto{
+  position: relative;
+  max-width: 300px;
+  height: fit-content;
+  margin: 5px;
+  cursor: pointer;
+}
+.portafolio .galeria .proyecto img{
+  width: 100%;
+  display: block;
+}
+.portafolio .galeria .proyecto .overlay{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(20,25,28,.1), rgba(20,25,28,5));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1%;
+  font-size: 18px;
+  letter-spacing: 3px;
+  opacity: 0;
+}
+.portafolio .galeria .proyecto .overlay h3{
+  margin-bottom: 20px;
+  transition: 1s;
+} 
+.portafolio .galeria .proyecto .overlay:hover{
+  opacity: 1;
+}
+.portafolio .galeria .proyecto .overlay:hover h3{
+  margin-bottom: 0px;
+}
+/* SECCION CONTACTO*/
+.contacto{
+  background-image: url(img/e.jpg);
+  background-color: #1e2326;
+  color: #fff;
+  padding: 50px 0;
+  
+}
+.contacto .contenido-seccion{
+  max-width: 1100px;
+  margin: auto;
+}
+.contacto h2{
+  font-size: 48px;
+  font-family: 'Righteous';
+  text-align: center;
+  padding: 20px 0;
+
+}
+.contacto .fila{
+  display:flex;
+   }
+.contacto .col{
+  width: 50%;
+  padding: 10px;
+  position: relative;
+}
+.contacto .col input, .contacto .col textarea{
+  display: block;
+  width: 100%;
+  padding: 18px;
+  border:none;
+  margin-bottom: 20px;
+  background-color: #252A2E;
+  color: #fff;
+  font-size: 10px;
+}
+.contacto button{
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #fff;
+  width: fit-content;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 22px;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+}
+.contacto button .overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 0;
+height: 100%;
+background-color: blue;
+z-index: -1;
+transition: 1s;
+
+}
+.contacto button:hover .overlay{
+width: 100%;
+}
+.contacto .col img{
+  width: 100%
+}
+.contacto .col .info{
+position: absolute;
+top: 40%;
+background-color: #252A2E;
+padding: 20px;
+max-width: 350px;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.contacto .col ul {
+  list-style: none;
+}
+.contacto .col ul li{
+  margin-bottom: 20px;
+}
+.contacto .col ul li i{
+  color: blue;
+  display: inline-block;
+  margin-right: 20px;
+
+}
+footer{
+  background-color: #252A2E;
+  color: #fff;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+footer .redes{
+  margin-bottom: 20px;
+}
+footer .redes a{
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  margin: 40px 5px;
+  font-size: 20px;
+  transition: .3%;
+}
+footer .arriba{
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -25px;
+  border-radius: 50%;
+  line-height: 50px;
+  font-size: 10px;
+
+}
+/* SECCION RESPONSIVE*/
+@media screen and (max-width:900px){
+  nav{
+    display: none;
+  }
+  nav.responsive{
+    display: block;
+  }
+  nav.responsive{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 75%;
+    background-color: #252A2E;
+    width: 180px;
+  }
+  nav.responsive ul{
+    display: block !important;
+
+  }
+  nav.responsive ul li{
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 700px){
+  .sobremi .fila{
+    display: block;
+  }
+  .sobremi .fila .col{
+    width: fit-content;
+  }
+  .skills .fila{
+    display: block;
+
+  }
+  .skills .fila .col{
+    width: 100pxs;
+
+  }
+  .skills .fila .col .barra-skill{
+    width: 100%;
+
+  }
+  .curriculum .fila{
+    display: block;
+  }
+  .curriculum .fila .col{
+    width: 98px;
+  }
+  .curriculum .fila .derecha{
+    margin-left: 20px;
+  }
+  .portafolio .galeria{
+    display: block;
+    width: 100%;
+  }
+  .portafolio .galeria .proyecto{
+    max-width: 100%;
+  }
+  .portafolio .galeria .proyecto img{
+    width: 100%;
+  }
+  .contacto .fila{
+    display: block;
+  }
+  .contacto .fila .col{
+    width: 100%;
+
+  }
+
+  
+}
+</style>
+
+    </head>
+    <body>
+    	<!-- MENU ENCABEZADO -->
+    	<div class="contenedor-header">
+    		<header>
+    			<div class="logo">
+    				<a href="#">Anibal</a>
+    			</div>
+    			<nav id="nav">
+    				<ul>
+    					<li><a href="#inicio" onclick="seleccionar()">INICIO</a>
+    					<li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a>
+    					<li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a>
+    					<li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+    					<li><a href="#portafolio" onclick="seleccionar"()>PORTAFOLIO</a>
+    					<li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+    				</ul>
+    			</nav>
+
+    			<div class="nav-responsive" onclick="mostrarOcultarMenu()">
+    			<i class="fa-solid fa-bars"></i>
+    			</div>
+    		</header>
+    	</div>
+
+    	<!-- SECCION INICIO -->
+    	<section id="inicio" class="inicio">
+    		<div class="contenido-banner">
+    			<div class="contenedor-img">
+    				<img src="img/c.jpg" alt="">
+    			</div>
+    			
+    			<h1>ANIBAL VILERA</h1>
+    			<h2>Ingeniero de software - Experto UI/UX</h2>
+    			
+    			<div class="redes">
+    				<a href="#"><i class="fa-brands fa-facebook"></i></a>
+    				<a href="#"><i class="fa-brands fa-twitter"></i></a>
+    				<a href="#"><i class="fa-brands fa-instagram"></i></a>
+    				<a href="#"><i class="fa-brands fa-github"></i></a>
+    				<a href="#"><i class="fa-solid fa-at"></i></a>
+    			</div>
+   	  	</section>
+
+   	  	<!-- SOBRE MI -->
+   	  	<section id="sobremi" class="sobremi">
+   	  		<div class="contenido-seccion se">
+   	  			<h2>Sobre mi</h2>
+   	  			<p><span>Hola soy Anibal Vilera.</span>Me gusta completar mis trabajos y encontrar una solucion primeramente a los problemas expuestos por lo usuarios. Dando a desmostrar mis conocimiento obtenidos mediante la carrera de ingenieria en informatica. Por el cual estoy actuamente cursando eñ 4to semestre.  </p>
+   	  			<div class="fila">
+   	  				<!-- datos personales-->
+   	  				<div class="col">
+   	  					<h3>Datos personales</h3>
+   	  					<ul>
+   	  						<li>
+   	  							<strong>Cumpleaños</strong>
+   	  							04-08-2002
+   	  						</li>
+   	  						<li>
+   	  							<strong>Telefono</strong>
+   	  							(0412)-8802686.
+
+   	  						</li>
+   	  						<li>
+   	  							<strong>Email</strong>
+   	  							ar2470931@gmail.com
+   	  						</li>
+   	  						<li>
+   	  							<strong>Wedsite</strong>
+   	  							www.example.com
+   	  						</li>
+   	  						<li>
+   	  							<strong>Direccion</strong>
+   	  							2341 San Juan de los Morros
+   	  						</li>
+   	  						<li>
+   	  							<strong>Cargo</strong>
+   	  							<span>FREELANCE</span>
+   	  						</li>
+   	  					</ul>
+   	  				</div>
+   	  				<!-- intereses -->
+   	  				<div class="col">
+   	  					<h3>Intereses</h3>
+   	  					<div class="contenedor-intereses">
+   	  						<div class="interes">
+   	  							<i class="fa-solid fa-gamepad"></i>
+   	  							<span>JUEGOS</span>
+   	  						</div>
+   	  						<div class="interes">
+   	  							<i class="fa-solid fa-headphones"></i>
+   	  							<span>MUSICA</span>
+   	  						</div>
+   	  						<div class="interes">
+   	  							<i class="fa-solid fa-plane"></i>
+   	  							<span>VIAJAR</span>
+   	  						</div>
+   	  							<div class="interes">
+   	  							<i class="fa-brands fa-apple"></i>
+   	  							<span>MAC OS</span>
+   	  						</div>
+   	  							<div class="interes">
+   	  							<i class="fa-solid fa-hiking"></i>
+   	  							<span>DEPORTE</span>
+   	  						</div>
+   	  							<div class="interes">
+   	  							<i class="fa-solid fa-book"></i>
+   	  							<span>LIBROS</span>
+   	  						</div>
+   	  							<div class="interes">
+   	  							<i class="fa-solid fa-car"></i>
+   	  							<span>AUTOS</span>
+   	  						</div>
+   	  							<div class="interes">
+   	  							<i class="fa-solid fa-camera"></i>
+   	  							<span>FOTOS</span>
+   	  						</div>
+   	  					</div>
+   	  					
+   	  				</div>
+   	  			</div>
+   	  			<button>
+   	  				Descargar CV <i class="fa-solid fa-download"></i>
+   	  				<span class="overlay"></span>
+
+   	  			</button>
+   	  		</div>  	  		
+   	  	</section>
+   	  	<!-- SECCION SKILLS -->
+   	  	<section class="skills" id="skills">
+   	  		<div class="contenido-seccion">
+   	  			<h2>skills</h2>
+   	  			<div class="fila">
+   	  				<!-- Technical skills -->
+   	  				<div class="col">
+   	  					<h3>Technical skills</h3>
+   	  					<div class="skills">
+   	  						<span>Javascript</span>
+   	  						<div class="barra-skills">
+   	  							<div class="progreso javascript">
+   	  								<span>50%</span>
+   	  							</div>
+   	  						</div>
+   	  						
+   	  					</div>
+
+   	  					<div class="skills">
+   	  						<span>HTML & CSS</span>
+   	  						<div class="barra-skills">
+   	  							<div class="progreso htmlcss">
+   	  								<span>80%</span>
+   	  							</div>
+   	  						</div>
+   	  						
+   	  					</div>
+   	  					<div class="skills">
+   	  						<span>Photoshop</span>
+   	  						<div class="barra-skills">
+   	  							<div class="progreso photoshop">
+   	  								<span>90%</span>
+   	  							</div>
+   	  						</div>
+   	  						
+   	  					</div>
+   	  					<div class="skills">
+   	  						<span>Wordpress</span>
+   	  						<div class="barra-skills">
+   	  							<div class="progreso Wordpress">
+   	  								<span>70%</span>
+   	  							</div>
+   	  						</div>
+   	  						
+   	  					</div>
+   	  					<div class="skills">
+   	  						<span>Dupra</span>
+   	  						<div class="barra-skills">
+   	  							<div class="progreso Dupra">
+   	  								<span>99%</span>
+   	  							</div>
+   	  						</div>
+   	  						
+   	  					</div>
+
+   	  				</div>
+
+					<!-- Professional skills -->
+
+   	  				<div class="col">
+   	  					<h3>Professional skills</h3>
+   	  					<div class="skills">
+   	  						<span>Comunicacion</span>
+   	  						<div class="barra-skills">
+   	  							<div class="progreso comunicacion">
+   	  								<span>80%</span>
+   	  							</div>
+   	  						</div>
+   	  						
+   	  					</div>
+
+   	  					<div class="skills">
+   	  						<span>Creatividad</span>
+   	  						<div class="barra-skills">
+   	  							<div class="progreso creatividad">
+   	  								<span>80%</span>
+   	  							</div>
+   	  						</div>
+   	  						
+   	  					</div>
+
+   	  					<div class="skills">
+   	  						<span>Dedicacion</span>
+   	  						<div class="barra-skills">
+   	  							<div class="progreso dedicacion">
+   	  								<span>55%</span>
+   	  							</div>
+   	  						</div>
+   	  						
+   	  					</div>
+   	  					
+   	  					<div class="skills">
+   	  						<span>Proyect Management</span>
+   	  						<div class="barra-skills">
+   	  							<div class="progreso proyect">
+   	  								<span>65%</span>
+   	  							</div>
+   	  						</div>
+   	  						
+   	  					</div>
+   	  				
+   	  				</div>
+
+   	  				
+   	  			</div>
+   	  			
+   	  		</div>
+   	  	</section>
+   	  	<!-- SECCION CURRICULUM -->
+   	  	<section class="curriculum" id="curriculum">
+
+   	  		<div class="contenido-seccion">
+   	  			<h2>Curriculum</h2>
+   	  			<div class="fila">
+   	  				<div class="col izquierda">
+   	  					<h3>Educacion</h3>
+   	  					<div class="item izq">
+   	  						<h4>Estudios Actualmente</h4>
+   	  						<span class="casa">Universidad Romulo Gallegos</span>
+   	  						<span class="fecha">2016 - 2023 </span>
+   	  						<p>Cursando el 4to semestre de ingenieria en informatica.</p>
+   	  						<div class="conectori">
+   	  							<div class="circuloi"></div>
+   	  						</div>
+   	  					</div>
+   	  						<div class="item izq">
+   	  						<h4>Segundaria</h4>
+   	  						<span class="casa">U,E Pedro Itriago Chacìn.</span>
+   	  						<span class="fecha">2014 - 2016 </span>
+   	  						<p>Bachiller en Ciencias.</p>
+   	  						<div class="conectori">
+   	  							<div class="circuloi"></div>
+   	  						</div>
+   	  					</div>
+   	  						<div class="item izq">
+   	  						<h4>Primaria</h4>
+   	  						<span class="casa">U,E Pedro Itriago Chacin. </span>
+   	  						<span class="fecha">2011 - 2015 </span>
+   	  						<p>1er a 3er año.</p>
+   	  						<div class="conectori">
+   	  							<div class="circuloi"></div>
+   	  						</div>
+   	  					</div>
+   	  				</div>
+   	  				
+   	  				<div class="col derecha">
+   	  					<h3>Experiencia de trabajo</h3>
+   	  					<div class="item der">
+   	  						<h4>front developer</h4>
+   	  						<span class="casa">Actualmente Trabajo</span>
+   	  						<span class="fecha">2022 - 2023 </span>
+   	  						<p>En el CNE</p>
+   	  						<div class="conectord">
+   	  							<div class="circulod"></div>
+   	  						</div>
+   	  					</div>
+   	  								<div class="item der">
+   	  						<h4>front developer</h4>
+   	  						<span class="casa">Experiencias</span>
+   	  						<span class="fecha">2016 - 2019 </span>
+   	  						<p>De herreria en un taller.</p>
+   	  						<div class="conectord">
+   	  							<div class="circulod"></div>
+   	  						</div>
+   	  					</div>
+
+   	  					<div class="item der">
+   	  						<h4>front developer</h4>
+   	  						<span class="casa">Experiencia</span>
+   	  						<span class="fecha">2013 - 2020 </span>
+   	  						<p>Ayudante de topografia</p>
+   	  						<div class="conectord">
+   	  							<div class="circulod"></div>
+   	  						</div>
+   	  					</div>
+
+   	  				</div>
+   	  			</div>
+   	  		</div>
+   	  	</section>
+   	  	<!-- SECCION PORTAFOLIO -->
+   	  	<section class="portafolio" id="portafolio">
+   	  		<div class="contenido-seccion">
+   	  			<h2>PORTAFOLIO</h2>
+   	  			<div class="galeria">
+   	  				<div class="proyecto">
+   	  					<img src="img/7.png" alt="">
+   	  					<div class="overlay">
+   	  						<h3>Diseño Creativo.</h3>
+   	  						<p>fotografia</p>
+   	  					</div>
+   	  				</div>
+
+   	  					<div class="proyecto">
+   	  					<img src="img/4.png" alt="">
+   	  					<div class="overlay">
+   	  						<h3>Ilustraitor.</h3>
+   	  						<p>Fotos digitales</p>
+   	  					</div>
+   	  				</div>
+   	  					<div class="proyecto">
+   	  					<img src="img/2.png" alt="">
+   	  					<div class="overlay">
+   	  						<h3>Instalaciones Software.</h3>
+   	  						<p>Windown 8,10,linux.</p>
+   	  					</div>
+   	  				</div>
+   	  					<div class="proyecto">
+   	  					<img src="img/1.jpg" alt="">
+   	  					<div class="overlay">
+   	  						<h3>Soporte tecnico.</h3>
+   	  						<p>Mantenimiento.</p>
+   	  					</div>
+   	  				</div>
+   	  					<div class="proyecto">
+   	  					<img src="img/3.png" alt="">
+   	  					<div class="overlay">
+   	  						<h3>Intalacion aplicaciones.</h3>
+   	  						<p>Microsoft company</p>
+   	  					</div>
+   	  				</div>
+   	  					<div class="proyecto">
+   	  					<img src="img/6.png" alt="">
+   	  					<div class="overlay">
+   	  						<h3>Flyper</h3>
+   	  						<p>Presentaciones</p>
+   	  					</div>
+   	  				</div>
+   	  			</div>
+   	  		</div>
+   	  	</section>
+   	  	<!-- SECCION CONTANCO -->
+   	  	<section class="contacto" id="contacto">
+   	  		<div class="contenido-seccion">
+   	  			<h2>CONTACTO</h2>
+   	  			<div class="fila">
+   	  				<!-- Formulario -->
+   	  				<div class="col">
+   	  					<input type="text" placeholder="Tu Nombre" >
+   	  					<input type="text" placeholder="Numero Telefono">
+   	  					<input type="text" placeholder="Direccion de correo" >
+   	  					<input type="text" placeholder="Tema" >
+   	  					<textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+   	  					<button>
+   	  						Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+   	  						<span class="overlay"></span>
+   	  					</button>
+   	  				</div>
+   	  				<!-- Mapa -->
+   	  				<div class="col">
+   	  					<img src="img/mapa.png" width= 550 alt="">
+   	  					<div class="info">
+   	  						<ul>
+   	  							<li>
+   	  							<li class="fa-solid fa-location-dot"></li>
+   	  							Guarico 2341, San juan de los Morros.
+								</li>
+								<li>
+									<li class="fa-solid fa-mobile-screen"></li>
+									Llamanos (0412)-8802686.								</li>
+									<li>
+										<li class="fa-solid fa-envelope"></li>
+										Email:ar2470931@gmail.com
+									</li>
+									
+   	  						</ul>
+   	  					</div>
+   	  				</div>
+   	  				
+   	  			</div>
+   	  			
+   	  		</div>
+		 </section>
+		 	<!-- footer -->
+		 	<footer>
+		 		<a href="#inicio" class="arriba">
+		 			<i class="fa-solid fa-angles-up"></i>
+		 		</a>
+		 		<div class="redes">
+    				<a href="#"><i class="fa-brands fa-facebook"></i></a>
+    				<a href="#"><i class="fa-brands fa-twitter"></i></a>
+    				<a href="#"><i class="fa-brands fa-instagram"></i></a>
+    				<a href="#"><i class="fa-brands fa-github"></i></a>
+    				<a href="#"><i class="fa-solid fa-at"></i></a>
+    			</div>
+		 	</footer>
+		 	<script src="script.js">
+		 		
+		 	</script>
+
+    </body>
